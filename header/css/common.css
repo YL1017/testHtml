@@ -1,0 +1,133 @@
+/*清除内外边距*/
+
+/* 布局（grid）（.g-）；模块（module）（.m-）；元件（unit）（.u-）
+；功能（function）（.f-）；皮肤（skin）（.s-）；状态（.z-）。*/
+		body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, input, p, form {
+			margin: 0;
+			padding: 0;
+		}
+		/*设置通用字体*/
+		body {
+			font: 14px arial, 'Microsoft Yahei';
+			/*background-color: #f6f6f6;*/
+		}
+		/*通栏*/
+		.box {
+			border-top: 1px solid #ccc;
+			width: 100%;
+		}
+		/*设置版心*/
+		.w {
+			width: 1000px;
+			margin: 0 auto;
+			/*background-color: pink;*/
+		}
+		li {
+			/*清除列表符号(编号)*/
+			list-style: none;
+		}
+		strong, em {
+			font-style:normal;
+			font-weight:bold;
+		}
+
+		a {
+			text-decoration: none;
+			/*白色*/
+			color: #fff;
+		}
+		a:hover {
+			/*连接后*/
+			color: #d7237d;
+		}
+		img {
+			/*清除ie6默认边框*/
+			border: 0 none;
+			/*清除图片默认底部缝隙*/
+			vertical-align: middle;
+		}
+		input {
+			border: 0 none;
+			/*清除默认轮廓线*/
+			outline: none;
+		}
+		.fl {
+			float: left;
+		}
+		.fr {
+			float: right;
+		}
+		/*清除浮动*/
+		.clearfix:before, .clearfix:after {
+			content: "";
+			display: table;
+		}
+		.clearfix:after {
+			clear: both;
+		}
+		.clearfix {
+			*zoom: 1;
+		}
+		/*.clerafix:after {
+			content:"";
+			display: block;
+			height: 0;
+			visibility: hidden;
+			clear: both;
+		}
+		.clearfix {
+			*zoom: 1;
+		}*/
+		.mr0 {
+			margin-right: 0;
+		}
+		/* 省略号 */
+		.ell {
+			white-space: nowrap;  
+		 	overflow: hidden;  
+		 	text-overflow: ellipsis;
+		}
+		/*字体大小*/
+		.f14 {
+			font-size: 14px;
+		}	
+		.f16 {
+			font-size: 16px;
+		}
+		.f18 {
+			font-size: 18px;
+		}	
+		.f20 {
+			font-size: 20px;
+		}
+		/*颜色*/
+		.red {
+			color: red;
+		}
+		@font-face {
+  			font-family: 'iconfont';
+  			src: url('../fonts/iconfont.eot');
+  			src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  			url('../fonts/iconfont.woff') format('woff'),
+  			url('../fonts/iconfont.ttf') format('truetype'),
+  			url('../fonts/iconfont.svg#iconfont') format('svg');
+		}
+		.iconfont {
+  			font-family:"iconfont" !important;
+  			font-size:16px;
+  			font-style:normal;
+  			-webkit-font-smoothing: antialiased;
+  			-webkit-text-stroke-width: 0.2px;
+  			-moz-osx-font-smoothing: grayscale;
+		}
+		.topfixed {
+			position: fixed;
+			top: 0;
+		}
+		.boxshadow {
+			box-shadow: 3px 3px 2px rgba(255, 255, 255, .5), 
+						-3px 3px 2px rgba(255, 255, 255, .5), 
+						3px -3px 2px rgba(255, 255, 255, .5), 
+						-3px -3px 2px rgba(255, 255, 255, .5);
+		}
+

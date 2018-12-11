@@ -1,0 +1,135 @@
+/*顶部导航开始*/
+.top-box-yl {
+	width: 100%;
+	height: 28px;
+	background-color: #f5f5f5;
+	birder-top: 1px solid #ccc;
+}
+.top-yl {	
+	height: 28px;
+	line-height: 28px;
+}
+/*地址定位*/
+.site-yl {
+	float: left;
+	font-size: 12px;
+	margin-left: 16px;
+}
+/*顶部导航栏*/
+.top-nav-yl {
+	float: right;
+	padding-right: 10px;
+}
+.top-nav-yl li {
+	float: left;
+	height: 28px;
+}
+.top-nav-yl img {
+	position: relative;
+	top:-4px;
+	right: 3px;
+}
+.top-nav-yl a {
+	font-size: 12px;
+	color: #666;
+}
+.top-yl i {
+	margin: 0 10px;
+	font-size: 8px;
+	color: #999;
+}
+.top-nav-yl li span {
+	position: relative;
+	top: 2px;
+	font-size: 1px;
+	padding-right: 8px;
+	padding-left: 3px;
+	color: #666;
+}
+.top-nav-yl li .top-nav-phone {
+	position: relative;
+	right: -8px;
+	font-size: 18px;
+}
+.phone {
+	position: relative;
+	top: -1px;
+}
+/*顶部导航结束*/
+/*头部开始*/
+/*头部logo开始*/
+.head-logo-yl {
+	height: 100px;
+	/*background-color: red;*/
+}
+.head-logo-yl img{
+	width: 160px;
+	height: 100px;
+	margin-left: -20px;
+}
+.head-service-yl {
+	position: relative;
+	width: 304px;
+	height: 100px;
+}
+.head-service-yl img {
+	position: absolute;
+	top: 0;
+	left: 20px;
+	width: 304px;
+	height: 100px;
+	z-index: 1;
+}
+.head-service-yl a {
+	display: inline-block;
+	width: 101px;
+	height: 100px;
+	position: absolute;
+	z-index: 2;
+}
+.head-service-link2-yl {
+	left: 100px;
+}
+.head-service-link3-yl {
+	left: 200px;
+}
+.head-search-yl {
+	height: 100px;
+	line-height: 100px;
+	padding-left: 38px;
+}
+.head-search-yl input {
+	height: 28px;
+	width: 333px;
+	padding: 2px 12px;
+	border: 1px solid #ff2783;
+	border-right: 0;
+}
+.head-search-yl button {
+	position:relative;
+	top:5px;
+	height: 34px;
+	width: 53px;
+	border: 0;
+	background-color: #ff2783;	
+}
+.head-search-yl i{
+	font-size: 26px;
+	color: white;
+}
+.head-shop-yl {
+	width: 94px;
+	height: 32px;
+	margin-top: 33px;
+	border: 1px solid #ccc;
+	background-color: #f6f7f9;
+}
+.head-shop-yl a {
+	display: block;
+	width: 94px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	color: #b09d9a;
+}
+/*头部logo结束*/
